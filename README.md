@@ -25,10 +25,12 @@ The shortcut file for the command can be also found here. It's easy to set up, j
 Usage is even more easier then installation. You just simply open up a new file and start writing your entry in the following format:
 
 ```xml
-<title>This is the Title</title>
-<body>This will be the body.</body>
-<categories>python,problem solving,even more categories</categories>
-<tags>python,sublimetext,socool</tags>
+<post>
+	<title>This is the Title</title>
+	<body>This will be the body.</body>
+	<categories>python,problem solving,even more categories</categories>
+	<tags>python,sublimetext,socool</tags>
+</post>
 ```
 
 *Known problems*
