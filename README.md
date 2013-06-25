@@ -42,7 +42,7 @@ For some wierd reason the xmlrpc throws an exception that start() needs 3 parame
 
 If you find a solution to this, please feel free to add it to the code. Thanks!
 
-Currently there is no escape in between the lines of body and it's too late now to add it. Until then if you want to add links and such use: < = &lt; and > = &gt;.
+Currently there is no escape in between the lines of body and it's too late now to add it. Until then if you want to add links and such use: < = \&lt; and > = \&gt;.
 
 And currently if you don't have the category that you want to add it won't create it for you. 
 
