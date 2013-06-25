@@ -12,9 +12,11 @@ It's reachable under http://yourdomain/yourblog/xmlrpc.php
 
 Then you just edit the username / password in the plugin file and your done!
 
+<code>
 wp_url = "http://blogdomain.com/xmlrpc.php"
 wp_username = "username"
 wp_password = "password"
+</code>
 
 The shortcut file for the command can be also found here. It's easy to set up, just add it to your default key configuration file called: Default.sublime_keymap which is also in the User folder.
 
@@ -22,10 +24,12 @@ The shortcut file for the command can be also found here. It's easy to set up, j
 
 Usage is even more easier then installation. You just simply open up a new file and start writing your entry in the following format:
 
+```xml
 <title>This is the Title</title>
 <body>This will be the body.</body>
 <categories>python,problem solving,even more categories</categories>
 <tags>python,sublimetext,socool</tags>
+```
 
 *Known problems*
 
