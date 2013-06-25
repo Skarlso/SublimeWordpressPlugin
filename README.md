@@ -31,6 +31,9 @@ Usage is even more easier then installation. You just simply open up a new file 
 <tags>python,sublimetext,socool</tags>
 ```
 
+It should immediately publish the post, if you want it to be a draft then the only thing you have to do is edit the status_published to 0. 
+Or add it as an <publish>true</publish> xml entry. Whatever you want. :)
+
 *Known problems*
 
 For some wierd reason the xmlrpc throws an exception that start() needs 3 parameters but 5 were given. You can ignore this exception it will work that way. But it's really strange. The submit in xmlrpc does really have 3 params as the last param is an arg which will be used to get out the passed in arguments. With other Python IDEAs like PyCharm this works fine. For some reason though Sublime doesn't seem to like it. 
@@ -39,5 +42,7 @@ If you find a solution to this, please feel free to add it to the code. Thanks!
 
 *Last words*
 
-That's all folks. Please enjoy. And have a nice day!
+That's all folks.
+Please enjoy.
+And have a nice day!
 Gergely.
