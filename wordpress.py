@@ -17,7 +17,7 @@ class WordpostCommand(sublime_plugin.TextCommand):
 
     def run(self, edit):
 
-        wp_url = "http://ramblingsofaswtester.com/xmlrpc.php"
+        wp_url = "http://yourblog.com/xmlrpc.php"
         wp_username = "username"
         wp_password = "password"
         wp_blogid = ""
